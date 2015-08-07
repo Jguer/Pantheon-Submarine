@@ -1,0 +1,7 @@
+[Contractor Entry]
+Name=Download Subtitles
+Icon=multimedia-video-player
+Description=Downloads subtitles for your video. 
+MimeType=video;
+Exec=submarine -f -q -l en -s os -s pn  %U
+Gettext-Domain=submarine

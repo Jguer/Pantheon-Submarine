@@ -1,0 +1,27 @@
+### AutoVala Project ###
+autovala_version: 16
+project_name: pantheon-submarine
+*vala_version: 0.28
+
+
+*vala_binary: src/pantheon-submarine
+*version: 0.1
+*vala_package: posix
+*vala_check_package: atk
+*vala_check_package: cairo
+*vala_check_package: gdk-3.0
+*vala_check_package: gdk-pixbuf-2.0
+*vala_check_package: gio-2.0
+*vala_check_package: glib-2.0
+*vala_check_package: gobject-2.0
+*vala_check_package: gtk+-3.0
+*vala_check_package: pango
+*vala_check_package: x11
+*vala_source: pantheon-submarine.vala
+
+*po: po
+
+*data: data/local
+
+*doc: doc
+
